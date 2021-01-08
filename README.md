@@ -30,7 +30,7 @@ It could be used in other parts of the app but in the presented solution it's ob
 ### Starting the app
 Please use
 
-`serve -s build` to run the production build
+`yarn && yarn build && serve -s build` to run the production build
  
 `yarn && yarn start` to install the dependencies and run the development code
 
