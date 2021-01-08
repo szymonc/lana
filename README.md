@@ -17,6 +17,16 @@ Store itself is also easy to scale as we can add new sub stores as the app grows
 
 I've also added some tests to components and store and domain. 
 
+### Checkout class
+The class is located under ./domain folder. It is merely the interface for the Store that actually contains the logic. It's not needed in the project however I imagine that it could serve as some kind of bridge fulfilling compatibility with legacy version of project. The sample usage can be find in the App.js component.
+It could be used in other parts of the app but in the presented solution it's obviously not the best choice.
+
+### What was left out
+ Due to mine other responsibilities I developed only crucial parts of the app
+* Bonus task was left out
+* I would put more effort into correct CSS modularization.
+* More test would be beneficial also some negative cases.
+
 ### Starting the app
 Please use
 
