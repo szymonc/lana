@@ -1,6 +1,6 @@
-#Lana exercise
+# Lana exercise
 
-##About the project
+## About the project
 
 The project was developed with React(create-react-app) and MobX.
 
